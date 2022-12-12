@@ -1,0 +1,150 @@
+
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*{
+  transition: 0.5s ease-in-out;
+}
+
+html,body{
+  width: 100%;
+  height: 100%;
+}
+body{
+    font-family: "rubik", sans-serif;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+li {
+  list-style: none;
+}
+
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+}
+.d-table{
+  height: 100%;
+  width: 100%;
+}
+.d-table-cell{
+  vertical-align: middle;
+}
+
+.image-center {
+  display: block;
+  margin: 0 auto;
+}
+
+.button-bg{
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  position: relative;
+  display: inline-block;
+  padding: 1rem 1.5rem;
+  color:  var(--primary-color);
+  background: rgb(245, 245, 245);
+  transition: 0.5s;
+  font-size: 1rem;
+}
+.button:hover{
+  color: var(--primary-color);
+}
+
+.button span {
+  display: block;
+  position: absolute;
+  background: var(--primary-color);
+  border-radius: 30px; 
+}
+
+.button span:hover{
+  border-radius: 30px;
+}
+
+.button span:nth-child(1){
+  left: 0;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.5s;
+  
+}
+
+.button:hover span:nth-child(1){
+  transform: scaleY(1);
+  transform-origin: bottom;
+  transition: transform 0.5s;
+
+}
+
+.button span:nth-child(2){
+  left: 0;
+  bottom  : 0;
+  width: 100%;
+  height: 2px;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s;
+  transition-delay: 0.4s;
+}
+
+.button:hover span:nth-child(2){
+  transform: scaleX(1);
+  transform-origin: left;
+  transition: transform 0.5s;
+  transition-delay: 0.4s;
+}
+.button span:nth-child(3){
+  top: 0;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.5s;
+}
+
+.button:hover span:nth-child(3){
+  transform: scaleY(1);
+  transform-origin: bottom;
+  transition: transform 0.5s;
+}
+.button span:nth-child(4){
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 2px;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.5s;
+  transition-delay: 0.4s;
+}
+
+
+/* top */
+.button:hover span:nth-child(4){
+  transform: scaleX(1);
+  transform-origin:right;
+  transition: transform 0.5s;
+  transition-delay: 0.4s;
+
+}
+

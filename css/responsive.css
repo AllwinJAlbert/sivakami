@@ -1,0 +1,72 @@
+@media (max-width:1200px){
+    .container{
+        padding: 0 1.5rem;
+    }
+}
+
+@media (max-width:991px){
+
+    /* hero section */
+    .hero-main-banner-content {
+        padding-top: 1rem;
+        text-align: center;
+        padding-bottom: 4rem;
+      }
+      .hero-main-banner-content h1{
+        padding: 0.4rem 0;
+      }
+      .hero-main-banner-content p{
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom: 0.7rem;
+      }
+
+      /* about section starting */
+
+      .about-heading{
+        padding-top: 2rem;
+      }
+      .about-container{
+        text-align: center;
+        margin: 0 auto;
+      }
+      .about-button-bg{
+        padding-bottom: 2rem;
+        text-align: center;
+        justify-content: center;
+    }
+
+
+  }
+  
+  @media (max-width:435px){
+
+    /* hero section ending*/
+
+    .hero-main-banner-content h1{
+      font-size: 1.5rem;
+    }
+    .hero-main-banner-content p{
+      font-size: 1rem;
+    }
+    .hero-main-banner-image{
+      padding: 0;
+    }
+    body > section.hero > div > div > div > div > div > div.col-lg-6.col-sm-12 > div > img:nth-child(6){
+        height: 300px;
+        width: 300px;
+    }
+
+    /* about section staring */
+
+    .about-us p{
+        font-size: 1rem;
+    }
+
+
+  }
+  
+  
+
+  
+

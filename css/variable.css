@@ -1,0 +1,17 @@
+:root {
+  --primary-color: #FC9C04;
+  --secondary-color: #575fcf;
+  --heading-color: #1e272e;
+  --text-color: #777;
+  --bg-color:#242529;
+
+  --font-primary: "Rubik", sans-serif;
+  --pall: 2rem;
+  --pt: 2rem;
+  --pb: 2rem;
+  --pr: 2rem;
+  --pl: 2rem;
+  --pv: 2rem;
+  --ph: 2rem;
+}
+

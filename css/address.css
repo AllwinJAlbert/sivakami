@@ -1,0 +1,47 @@
+.address{
+    padding: 5rem 0;
+    background: var(--primary-color);
+    
+}
+
+.add-heading{
+    text-align: center;
+    padding: 2rem 0;
+    color: #fff;
+}
+
+.add{
+    background:#fff;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 10px;
+}
+.add h3{
+    padding: 1rem;
+    color: var(--primary-color);
+}
+
+.add p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #777;
+    padding: 0.1rem 1rem;
+}
+
+.add h4{
+    color: #777;
+    padding: 0 1rem;
+}
+
+.fa-phone{
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    padding: 10px;
+}
+
+.fa-envelope{
+    color: var(--primary-color);
+    padding: 10px;
+    font-size: 1.8rem;
+}
+

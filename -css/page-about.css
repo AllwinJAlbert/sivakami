@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&display=swap");
+:root {
+  --primary-color: #FC9C04;
+  --secondary-color: #575fcf;
+  --heading-color: #1e272e;
+  --text-color: #777;
+
+  --font-primary: "Rubik", sans-serif;
+  --pall: 2rem;
+  --pt: 2rem;
+  --pb: 2rem;
+  --pr: 2rem;
+  --pl: 2rem;
+  --pv: 2rem;
+  --ph: 2rem;
+}
+
+body {
+  font-family: var(--font-primary);
+}
+
+.navbar {
+  padding: 0;
+  background: var(--primary-color);
+}
+.navbar-brand {
+  padding: 1rem 0;
+  margin: 0;
+}
+
+.nav-link {
+  position: relative;
+  font-size: 1.1em;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  transition: color 300ms ease-in-out;
+  margin: 1rem;
+  display: inline-block;
+}
+
+.nav-link:hover {
+  color: rgb(0, 0, 0);
+}
+.nav-item a {
+  padding: 0 !important;
+}
+.nav-link:before {
+  content: "";
+  position: absolute;
+  display: block;
+  left: 0;
+  right: 0;
+  height: 5px;
+  bottom: -10px;
+  background: linear-gradient(to right, #fff, #e6e6e6);
+  opacity: 0;
+  transition: opacity 500ms ease-in-out;
+}
+.nav-link:hover:before {
+  opacity: 1;
+}
+
+.navbar-toggler {
+  border: none;
+  padding: 0;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
+.toggler-icon {
+  background-color: #fff;
+  height: 3px;
+  width: 25px;
+  display: block;
+  transition: 0.5s;
+}
+
+.middle-bar {
+  margin: 5px auto;
+}
+.navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bottom-bar {
+  transform: rotate(-50deg);
+  transform-origin: 10% 10%;
+}
+
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+  opacity: alpha(opacity=100);
+}
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+.navbar-toggler.collapsed .toggler-icon {
+  background-color: #fff;
+}
+
+.about{
+  padding: 0 0 100px;
+}
+.about .container {
+  background: var(--primary-color);
+  margin-top: 5rem;
+  border-radius: 3rem;
+}
+
+.about-heading {
+  text-align: center;
+  margin: 4rem 0 0 0;
+  font-size: 2.3rem;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-color: #fff;
+  /* background-image: linear-gradient( to right, #ff8c1a, #ff5900); */
+}
+
+.about-page-img{
+  display: flex;
+}
+.about-img {
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+
+@media (max-width:500px){
+  .about-img{
+    width: 300px;
+    height: 300px;
+  }
+}
+
+.about-para{
+  text-align: center;
+  font-size: 1.2rem;
+  color: #ffffff;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  font-weight: 500;
+  padding: 3rem 2rem;
+}
+
+
+.vision-card{
+  text-align: center;
+  padding: 2rem 0;
+  margin: 0 1rem;
+}
+
+.icon-bg{
+  background: var(--primary-color);
+  color: #fff;
+  height: 4rem;
+  width: 4rem;
+  margin: 1rem auto;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  font-size: 1.3rem;
+}
+.icon-bg .fa-eye{
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.icon-bg .fa-rocket{
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+}
+.vision-heading{
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.vision-para{
+  color: #777;
+  font-weight: 500;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}

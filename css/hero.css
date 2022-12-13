@@ -227,9 +227,9 @@
   .hero-main-banner-image{
     padding: 0;
   }
-  .hero-main-banner-image:nth-child(6){
-    width: 200px !important;
-    height: 200px !important;
+  .img6{
+    width: 250px !important;
+    height: 250px !important;
   }
 
  

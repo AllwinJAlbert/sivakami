@@ -26,13 +26,13 @@ const filterContainer = document.querySelector(".gallery-filter"),
  });
 
 
- const sr = ScrollReveal({
-  origin:'top',
-  distance:'100px',
-  duration: '1500',
-  reset: 'true'
-})
+//  const sr = ScrollReveal({
+//   origin:'top',
+//   distance:'600px',
+//   duration: '700',
+//   reset: 'true'
+// })
 
-ScrollReveal().reveal('.heading');
-ScrollReveal().reveal('.filter-item',( {delay: 200}));
-ScrollReveal().reveal('.gallery-item-inner',( {delay: 200}));
+// ScrollReveal().reveal('.heading');
+// ScrollReveal().reveal('.filter-item');
+// ScrollReveal().reveal('.gallery-item-inner');
